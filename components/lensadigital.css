@@ -1,0 +1,26 @@
+/* Lensadigital — komponen dasar. Semua nilai dari tokens.json. */
+.ld-root{font-family:var(--font-sans);color:var(--text);background:var(--surface-000);padding:var(--space-6);display:flex;flex-wrap:wrap;gap:var(--space-4);align-items:center}
+
+/* Button */
+.ld-btn{font-family:var(--font-sans);font-weight:600;font-size:16px;line-height:24px;border:0;cursor:pointer;display:inline-flex;align-items:center;gap:var(--space-2);padding:var(--space-3) var(--space-6);border-radius:var(--radius-pill);text-decoration:none}
+.ld-btn--primary{background:var(--brand-orange);color:var(--on-brand)}
+.ld-btn--primary:hover{background:var(--brand-orange-deep);color:var(--on-brand)}
+.ld-btn--secondary{background:transparent;color:var(--text);box-shadow:inset 0 0 0 1.5px var(--surface-200)}
+.ld-btn--secondary:hover{box-shadow:inset 0 0 0 1.5px var(--text-muted)}
+.ld-btn--ghost{background:transparent;color:var(--brand-orange-text);padding-left:var(--space-2);padding-right:var(--space-2)}
+.ld-btn:focus-visible{outline:2px solid var(--brand-orange);outline-offset:3px}
+
+/* Badge */
+.ld-badge{font-family:var(--font-sans);font-size:13px;line-height:18px;font-weight:500;padding:var(--space-1) var(--space-3);border-radius:var(--radius-pill);display:inline-block}
+.ld-badge--brand{background:var(--brand-orange);color:var(--on-brand)}
+.ld-badge--neutral{background:var(--surface-200);color:var(--text)}
+.ld-badge--outline{box-shadow:inset 0 0 0 1px var(--surface-200);color:var(--text-muted)}
+
+/* Product card */
+.ld-card{font-family:var(--font-sans);background:var(--surface-100);border-radius:var(--radius-lg);padding:var(--space-6);width:300px;box-shadow:0 0 0 1px var(--surface-200);display:flex;flex-direction:column;gap:var(--space-3)}
+.ld-card--featured{box-shadow:var(--shadow-glow)}
+.ld-card__title{font-size:20px;line-height:28px;font-weight:600;margin:0;color:var(--text)}
+.ld-card__desc{font-size:16px;line-height:26px;margin:0;color:var(--text-muted)}
+.ld-card__price{display:flex;align-items:baseline;gap:var(--space-2)}
+.ld-card__now{font-size:28px;line-height:36px;font-weight:700;color:var(--brand-orange-text)}
+.ld-card__was{font-size:13px;color:var(--text-muted);text-decoration:line-through}
