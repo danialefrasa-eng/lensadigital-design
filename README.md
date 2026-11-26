@@ -7,4 +7,4 @@ Sumber desain brand Lensadigital.
 - `logo/lensadigital-logo.png` — logo utama
 - `components/lensadigital.css` — gaya tombol, badge, dan kartu produk
 
-Warna diambil dari logo. Font Poppins masih asumsi.
+Warna diambil dari logo. Font, ukuran, dan bentuk komponen diambil dari landing page Integrated Micro Farm Sirkular.
